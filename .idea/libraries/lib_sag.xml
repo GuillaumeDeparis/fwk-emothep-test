@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="lib-sag">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../../../SoftwareAG/SoftwareAG105/common/lib" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../../../../SoftwareAG/SoftwareAG105/common/lib/testsuite" />
+      <root url="file://$PROJECT_DIR$/../../../../SoftwareAG/SoftwareAG105/common/lib" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/../../../../SoftwareAG/SoftwareAG105/common/lib" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../../SoftwareAG/SoftwareAG105/common/lib" recursive="false" type="SOURCES" />
+  </library>
+</component>

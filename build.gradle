@@ -1,0 +1,24 @@
+plugins {
+    id 'java'
+}
+
+group 'com.e-mothep'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+    maven{
+        url "https://opensource.softwareag.com/artifactory/maven"
+    }
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.9.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.9.0'
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    //implementation fileTree(include: ['*.jar'], dir: 'C:\\SoftwareAG\\SoftwareAG105\\common\\lib')
+}
+
+test {
+    useJUnitPlatform()
+}

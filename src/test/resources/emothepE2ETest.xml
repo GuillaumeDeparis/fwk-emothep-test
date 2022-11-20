@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmothepE2ETest name="test">
+	<EmothepTestStart serviceName="inputservice:name">
+		<input filename=""/>
+		<outputExpected filename=""/>
+		<mockServices>
+			<mockService serviceName="" enabled="true|false">
+				<outputExpected filename=""/>
+			</mockService>	
+		</mockServices>
+	</EmothepTestStart>	
+	<EmothepTestEnds>
+		<EmothepTestEnd serviceName="">
+			<outputExpected filename=""/>
+			<mockServices>
+			<mockService serviceName="" enabled="true|false">
+				<outputExpected filename=""/>
+			</mockService>	
+		</mockServices>
+		</EmothepTestEnd>
+		<EmothepTestEnd serviceName="">
+			<outputExpected filename=""/>
+			<mockServices>
+				<mockService serviceName="" enabled="true|false">
+					<outputExpected filename=""/>
+				</mockService>	
+			</mockServices>
+		</EmothepTestEnd>
+	</EmothepTestEnds>
+</EmothepE2ETest>

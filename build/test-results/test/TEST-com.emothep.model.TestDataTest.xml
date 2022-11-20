@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.emothep.model.TestDataTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-11-18T15:28:51" hostname="LPT-LTD5590-GDS" time="0.152">
+  <properties/>
+  <testcase name="getServiceName()" classname="com.emothep.model.TestDataTest" time="0.152"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
